@@ -1,0 +1,16 @@
+CMakeCache.txt
+CMakeFiles/
+FREERTOS_KERNEL/
+Makefile
+_deps/
+cmake_install.cmake
+generated/
+pico-sdk/
+pico_flash_region.ld
+picotool/
+taskPreemption.bin
+taskPreemption.dis
+taskPreemption.elf
+taskPreemption.elf.map
+taskPreemption.hex
+taskPreemption.uf2

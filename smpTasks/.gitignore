@@ -1,0 +1,16 @@
+CMakeCache.txt
+CMakeFiles/
+FREERTOS_KERNEL/
+Makefile
+_deps/
+cmake_install.cmake
+generated/
+pico-sdk/
+pico_flash_region.ld
+picotool/
+smpTasks.bin
+smpTasks.dis
+smpTasks.elf
+smpTasks.elf.map
+smpTasks.hex
+smpTasks.uf2
