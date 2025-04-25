@@ -5,7 +5,7 @@
 #include "semphr.h"
 
 const int taskDelay = 100;
-const int taskSize = 128;
+const int taskSize = 192;
 SemaphoreHandle_t mutex;
 
 void vSafePrint(char *out) {
@@ -21,7 +21,7 @@ void vTaskSMP(void *pvParameters) {
     char out[40];
 
     for (;;) {
-        sprintf(out,"Task %s core %d tick %d mask %d", name, get_core_num(),
+        sprintf(out,"Task %s core %u tick %u mask %d", name, get_core_num(),
                 xTaskGetTickCount(), mask);
         vSafePrint(out);
         vTaskDelay(taskDelay);
